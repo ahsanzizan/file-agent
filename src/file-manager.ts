@@ -158,3 +158,5 @@ export class FileManager {
     }
   }
 }
+
+export const fileManager = new FileManager();
