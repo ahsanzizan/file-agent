@@ -5,7 +5,7 @@ class Logger {
   private logFilePath: string;
 
   constructor(logFileName: string = "app.log") {
-    this.logFilePath = path.join(__dirname, logFileName);
+    this.logFilePath = path.join(__dirname, "../", logFileName);
   }
 
   private formatLog(level: string, message: string): string {
